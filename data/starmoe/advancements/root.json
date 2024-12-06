@@ -1,0 +1,31 @@
+{
+    "parent": "minecraft:story/root",
+    "criteria": {
+      "diamond_block": {
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:crafting_table"
+              ]
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      }
+    },
+    "display": {
+      "description": "准备好开始您的里程碑了吗？",
+      "frame": "goal",
+      "icon": {
+        "item": "minecraft:crafting_table"
+      },
+      "hidden": false,
+      "title": "欢迎来到Minecraft"
+    },
+    "requirements": [
+      [
+        "crafting_table"
+      ]
+    ]
+  }
